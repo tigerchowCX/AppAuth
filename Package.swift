@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppAuth",
+    name: "AppAuth_iOS",
     platforms: [.iOS(.v10)],
     products: [
         .library(
-            name: "AppAuth",
+            name: "AppAuth_iOS",
             targets: ["AppAuth_iOS"]),
     ],
     dependencies: [
