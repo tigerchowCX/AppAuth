@@ -19,7 +19,7 @@ let package = Package(
             path: "Source",
             cSettings: [
                 .headerSearchPath("Source"),
-                .headerSearchPath("Source/iOS")),
+                .headerSearchPath("Source/iOS"),
             ]),
     ]
 )
