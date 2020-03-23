@@ -16,6 +16,7 @@ let package = Package(
         .target(
             name: "AppAuth_iOS",
             dependencies: [],
-            path: "Source"),
+            path: "Source",
+            publicHeadersPath: "Source"),
     ]
 )
