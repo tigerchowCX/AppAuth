@@ -6,15 +6,15 @@ let package = Package(
     platforms: [.iOS(.v10)],
     products: [
         .library(
-            name: "AppAuth_iOS",
-            targets: ["AppAuth_iOS"]),
+            name: "AppAuth",
+            targets: ["AppAuth"]),
     ],
     dependencies: [
     
     ],
     targets: [
         .target(
-            name: "AppAuth_iOS",
+            name: "AppAuth",
             dependencies: [],
             path: "Source",
             cSettings: [
