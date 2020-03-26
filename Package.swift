@@ -7,14 +7,14 @@ let package = Package(
     products: [
         .library(
             name: "AppAuth",
-            targets: ["AppAuth_iOS"]),
+            targets: ["AppAuth-iOS"]),
     ],
     dependencies: [
     
     ],
     targets: [
         .target(
-            name: "AppAuth_iOS",
+            name: "AppAuth-iOS",
             path: "Source",
             publicHeadersPath: "",
             cSettings: [
