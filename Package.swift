@@ -6,8 +6,8 @@ let package = Package(
     platforms: [.iOS(.v10)],
     products: [
         .library(
-            name: "AppAuth",
-            targets: ["AppAuth_iOS"]),
+            name: "AppAuth-iOS",
+            targets: ["AppAuth-iOS"]),
     ],
     dependencies: [
     
