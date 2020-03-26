@@ -14,7 +14,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AppAuth",
+            name: "AppAuth_iOS",
             path: "Source",
             publicHeadersPath: "",
             cSettings: [
