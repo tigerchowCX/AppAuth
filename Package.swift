@@ -6,8 +6,8 @@ let package = Package(
     platforms: [.iOS(.v10)],
     products: [
         .library(
-            name: "AppAuth-iOS",
-            targets: ["AppAuth-iOS"]),
+            name: "AppAuth",
+            targets: ["AppAuth"]),
     ],
     dependencies: [
     
@@ -18,7 +18,7 @@ let package = Package(
             path: "Source",
             publicHeadersPath: "",
             cSettings: [
-                .headerSearchPath("Source"),
+                .headerSearchPath("Source/Framework"),
             ]),
     ]
 )
