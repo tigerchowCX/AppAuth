@@ -377,8 +377,6 @@
 		60140F801DE4344200DA0DC3 /* OIDRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F7F1DE4344200DA0DC3 /* OIDRegistrationResponse.m */; };
 		60140F831DE43BAF00DA0DC3 /* OIDRegistrationRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F821DE43BAF00DA0DC3 /* OIDRegistrationRequestTests.m */; };
 		60140F861DE43CC700DA0DC3 /* OIDRegistrationResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F851DE43CC700DA0DC3 /* OIDRegistrationResponseTests.m */; };
-		727D1C28242C4CAD00E26F44 /* AppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 341741AF1C5D8243000EF209 /* AppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AC9A7562424C1EE00E5B8A4 /* AppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 343AAA4D1E8345B600F9D36E /* AppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AC9A7572424C1EE00E5B8A4 /* OIDAuthorizationService+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F60FB31D2BFEFE00325CB3 /* OIDAuthorizationService+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AC9A7582424C1EE00E5B8A4 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 345AE746202D526800738D22 /* OIDExternalUserAgentIOSCustomBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AC9A7592424C1EE00E5B8A4 /* OIDAuthState+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F60FB51D2BFEFE00325CB3 /* OIDAuthState+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -939,7 +937,6 @@
 				343AAAE31E83499000F9D36E /* OIDAuthorizationRequest.h in Headers */,
 				343AAAF91E83499000F9D36E /* OIDTokenUtilities.h in Headers */,
 				343AAAEC1E83499000F9D36E /* OIDError.h in Headers */,
-				727D1C28242C4CAD00E26F44 /* AppAuth.h in Headers */,
 				A6DEABAB2018E5C50022AC32 /* OIDExternalUserAgentIOS.h in Headers */,
 				A6339DAA20321ADD0043D1C9 /* OIDAuthorizationFlowSession.h in Headers */,
 			);
@@ -1048,7 +1045,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC9A7562424C1EE00E5B8A4 /* AppAuth.h in Headers */,
 				8AC9A7572424C1EE00E5B8A4 /* OIDAuthorizationService+IOS.h in Headers */,
 				8AC9A7582424C1EE00E5B8A4 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */,
 				8AC9A7592424C1EE00E5B8A4 /* OIDAuthState+IOS.h in Headers */,
