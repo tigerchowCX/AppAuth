@@ -739,7 +739,6 @@
 				341742291C5D84D0000EF209 /* Frameworks */,
 				341741FB1C5D82D3000EF209 /* UnitTests */,
 				341741AE1C5D8243000EF209 /* Source */,
-				340E737D1C5D819B0076B1F6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -762,11 +761,13 @@
 				343AAACA1E8348AA00F9D36E /* AppAuth_macOSTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		341741AE1C5D8243000EF209 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				340E737D1C5D819B0076B1F6 /* Products */,
 				343AAA4C1E8345B600F9D36E /* Framework */,
 				F6F60FAF1D2BFEF000325CB3 /* iOS */,
 				341741AF1C5D8243000EF209 /* AppAuth.h */,
