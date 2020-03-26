@@ -15,11 +15,11 @@ let package = Package(
     targets: [
         .target(
             name: "AppAuth",
-            dependencies: [],
             path: "Source",
+            publicHeadersPath: "",
             cSettings: [
+                .headerSearchPath("Source"),
                 .headerSearchPath("Source/Framework"),
-                .headerSearchPath("Source/iOS"),
             ]),
     ]
 )
