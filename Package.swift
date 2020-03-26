@@ -2,24 +2,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppAuth",
+    name: "AppAuth_iOS",
     platforms: [.iOS(.v10)],
     products: [
         .library(
-            name: "AppAuth",
-            targets: ["AppAuth"]),
+            name: "AppAuth_iOS",
+            targets: ["AppAuth_iOS"]),
     ],
     dependencies: [
     
     ],
     targets: [
         .target(
-            name: "AppAuth",
+            name: "AppAuth_iOS",
             path: "Source",
             publicHeadersPath: "",
             cSettings: [
                 .headerSearchPath("Source"),
-                .headerSearchPath("Source/Framework"),
             ]),
     ]
 )
